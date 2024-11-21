@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang = 'ko'>
+</html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+		<meta name = "author" content = "Team.destination"> 
+		<meta name = "keywords" content = "정보보안인식 테스트">
+		<meta name = "description" content = "정보보안인식 테스트">
+		<title> 청소년을 위한 개인정보보안인식 테스트</title>
+		
+		<!-- sns share -->
+		<meta property = "og:url" contenst = "" />
+		<meta property ="og:title" content = "청소년을 위한 개인정보보안인식 테스트" />
+		<meta property = "og: type" content = "website"/>
+		<meta property = "og:image" content = "test/pnp.png"/>
+		<meta property = "og:description" content = "청소년을 위한 개인정보보안인식 테스트"/>
+		
+		<!-- 위에뜨는거-->
+		<link rel = "short icon" href="test/alarm.png">
+		<link rel = "apple - touch-icon-preconposed" href ="test/alarm.png" />
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Orbit&family=Poor+Story&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+		<style>
+		*  {
+  font-family: "Poor Story", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+		</style>
+	</head>
+	<body>
+		<header class="set" id="startpage">
+			<div class = "let">
+				<p id = "dynamic" class="lg-text">
+			
+				</p>
+				<p>
+					 우리는 지금도 수많은 정보 유출의 위험 속에서 살아가고 있습니다.
+				</p>
+				<p>
+					인천여자고등학교 공학동아리 O.N. Team.destination
+				</p>
+				<button onclick ="begin()">
+					시작하기
+				</button>
+
+			</div>
+		</header>
+		
+		<main id = "testpage" style="display: none;">
+			<div class="testbox" >
+				
+			</div>
+			<div class="answerbox">
+				
+			</div>
+		</main>
+		
+		<div id="resultpage">
+			<div class = "result">
+				
+			
+			
+				<p id = "move" class = "lg-text">
+					 당신의 결과는?!
+				</p>
+				<div class="scorecontain">
+					
+				</div>
+				<p>
+					인천여자고등학교 공학동아리 O.N. Team.destination
+				</p>
+				<button onclick ="begin()">
+					다시 시작하기
+				</button>
+			<button type = button>
+				결과 공유하기
+			</button>
+				<button type = "button" class = " kakao" oneclick = "kakaoShare">카카오톡으로 공유하기</button>
+
+			</div>
+			
+			
+		</div>
+		<script src = "data.js"></script>
+		<script src = "skech.js"></script>
+		<script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+		<script>
+		Kakao.init('ba0e2164775a758fb4dd5d56a5ab890b'); 
+		Kakao.isInitialized(); </script>
+		<script src = "share.js"></script>
+
+	</body>
+</html>
