@@ -1,4 +1,5 @@
 
+
 function kakaoShare(){
     Kakao.Link.sendDefault({
                       objectType: 'feed',           // 메시지 타입
@@ -29,4 +30,5 @@ function kakaoShare(){
         ]
     });
     }
+    
     
